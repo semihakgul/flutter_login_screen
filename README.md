@@ -1,16 +1,9 @@
 # login_page
 
-A new Flutter application.
+A simple flutter application where shared_preferences package is used to create simple registration and login system.
 
-## Getting Started
+![image](https://user-images.githubusercontent.com/32493039/93748754-710bff80-fc01-11ea-8b82-6cb2d8365397.png)
 
-This project is a starting point for a Flutter application.
+![image](https://user-images.githubusercontent.com/32493039/93748792-7ff2b200-fc01-11ea-8842-9a435ec0e5e7.png)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/32493039/93748825-8aad4700-fc01-11ea-8fe9-65972d796a78.png)
