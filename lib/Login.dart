@@ -1,6 +1,8 @@
 import 'package:login_page/main.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'Register.dart';
+import 'SharedPreferences.dart';
 
 var userNameInputController = TextEditingController();
 var passwordInputController = TextEditingController();
@@ -32,7 +34,7 @@ class LoginPage extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.all(15.0),
-            child: TextFormField(
+            child: TextField(
               controller: passwordInputController,
               obscureText: false,
               decoration: InputDecoration(
@@ -47,14 +49,7 @@ class LoginPage extends StatelessWidget {
           SizedBox(
             height: 30,
           ),
-          Container(
-            child: Text(
-              'Already registered?',
-              style: TextStyle(
-                color: Colors.blue,
-              ),
-            ),
-          ),
+
           SizedBox(
             height: 30,
           ),

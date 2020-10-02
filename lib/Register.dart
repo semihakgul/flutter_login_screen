@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:login_page/Login.dart';
-import 'package:login_page/main.dart';
+import 'SharedPreferences.dart';
 
 var passwordController = TextEditingController();
 var userNameController = TextEditingController();
@@ -46,11 +46,20 @@ class RegisterPage extends StatelessWidget {
               SizedBox(
                 height: 30,
               ),
-              Container(
-                child: Text(
-                  'Already registered?',
-                  style: TextStyle(
-                    color: Colors.blue,
+              GestureDetector(
+                onTap: (){
+                  Navigator.of(context).pushReplacement(
+                    MaterialPageRoute(
+                      builder: (BuildContext context) => LoginPage(),
+                    ),
+                  );
+                },
+                child: Container(
+                  child: Text(
+                    'Already registered?',
+                    style: TextStyle(
+                      color: Colors.blue,
+                    ),
                   ),
                 ),
               ),
